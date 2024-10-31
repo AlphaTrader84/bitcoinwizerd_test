@@ -1141,6 +1141,9 @@ span {
 
     /* Projects Section */
     .projects {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         background: var(--fourth-bg-color);
         padding: 1rem 2;
     }
@@ -1165,10 +1168,10 @@ span {
     }
 
     .projects-container .projects-box {
-        height: 9rem;
-        width: 13rem;
         display: flex;
         position: relative;
+        height: 9rem;
+        width: 10rem;
         align-items: center;
         justify-items: left;
         border-radius: .5rem;
@@ -1591,9 +1594,9 @@ span {
     }
     
     .about-content h2 {
-        text-align: inherit;
+        text-align: center;
         line-height: 3rem;
-        font-size: 5rem;
+        font-size: 4rem;
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
@@ -1693,7 +1696,7 @@ span {
     .projects {
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: stretch;
         background: var(--fourth-bg-color);
         height: 100%;
     }
@@ -1717,11 +1720,10 @@ span {
 
     .projects-container .projects-box {
         display: flex;
-        position: relative;
         height: 9rem;
-        width: 25rem;
-        align-items: center;
-        justify-items: center;
+        width: 20rem;
+        align-items: stretch;
+        justify-items: space-evenly;
         border-radius: .5rem;
         box-shadow: 0 0 .5rem .25rem var(--var-color);
         overflow: hidden;
@@ -1944,7 +1946,6 @@ span {
         height: 100%;
         justify-content: center;
         align-items: center;
-        margin-top: 2rem;
         margin-bottom: 0rem;
     }
 
@@ -1976,10 +1977,11 @@ span {
     }
 
     .home-img img {
-        width: 50vw;
+        width: 40vw;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 5rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
 
 
@@ -2179,7 +2181,7 @@ span {
     .projects-container .projects-box {
         display: flex;
         position: relative;
-        width: 100%;
+        width: 80%;
         border-radius: .5rem;
         box-shadow: 0 0 .5rem .25rem var(--var-color);
         overflow: hidden;
@@ -2301,7 +2303,7 @@ span {
     .payment-container .payment-box {
         position: relative;
         height: 18rem;
-        width: auto;
+        width: 10rem;
         background: var(--third-bg-color);
         border-radius: 2rem;
         box-shadow: 0 0 .2rem .1rem var(--second-color);
@@ -2681,7 +2683,7 @@ span {
         display: flex;
         position: relative;
         height: 15rem;
-        width: 98%;
+        width: 85%;
         border-radius: .5rem;
         box-shadow: 0 0 .5rem .5rem var(--var-color);
         overflow: hidden;
@@ -2803,7 +2805,7 @@ span {
     .payment-container .payment-box {
         position: relative;
         height: 85%;
-        width: 100%;
+        width: 85%;
         border-radius: 2rem;
         box-shadow: 0 0 .2rem .1rem var(--second-color);
         border: .1rem solid var(--second-bg-color);
